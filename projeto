@@ -1,0 +1,13 @@
+def fat(num=1, show=0):
+    print('-' * 25)
+    f = 1
+    for i in range(num, 0, -1):
+        if show == True:
+          if i != 1:
+              print(i, 'x', end=' ')
+          else:
+              print(i, '=', end=' ')
+        f *= i
+    return f
+
+print(fat(10, show=True))
