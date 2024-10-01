@@ -11,3 +11,4 @@ def fat(num=1, show=0):
     return f
 
 print(fat(10, show=True))
+print(fat(10, show=False))
